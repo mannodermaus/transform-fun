@@ -26,7 +26,6 @@ public class MyActivity extends Activity {
         List<String> kotlinList = MyKotlinFileKt.listFromKotlin();
 
         TextView textView = findViewById(R.id.textView);
-
         appendListInfo(textView, "items", String.class, items);
         appendListInfo(textView, "emptyList", Float.class, emptyList);
         appendListInfo(textView, "intList", Integer.class, intList);

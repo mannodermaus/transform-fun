@@ -7,13 +7,13 @@ plugins {
     `kotlin-dsl`
 }
 
-val agp_version = "3.4.0-alpha10"
-val javassist_version = "3.24.0-GA"
+val agpVersion = "3.4.0-beta02"
+val javassistVersion = "3.24.0-GA"
 
 dependencies {
-    implementation(gradleApi())
-    implementation("com.android.tools.build:gradle-api:$agp_version")
-    implementation("com.android.tools.build:gradle:$agp_version")
+    // Transform API is contained here
+    implementation("com.android.tools.build:gradle-api:$agpVersion")
 
-    implementation("org.javassist:javassist:$javassist_version")
+    // Bytecode manipulation API, similar to Java's Reflection & Lint's UAST
+    implementation("org.javassist:javassist:$javassistVersion")
 }
