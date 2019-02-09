@@ -3,7 +3,7 @@ Demo repository for "Exploring the Android Transform API", presented at DroidKai
 
 ## Slides
 
-hoge hoge hoge
+["Exploring the Android Transform API" (Speakerdeck)](https://speakerdeck.com/mannodermaus/exploring-the-android-transform-api)
 
 ## Video
 
