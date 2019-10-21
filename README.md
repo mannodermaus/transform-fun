@@ -7,5 +7,5 @@ Demo repository for "Exploring the Android Transform API", presented at DroidKai
 
 ## Video
 
-hoge hoge hoge
+[(YouTube) DroidKaigi 2019 - Exploring the Android Transform API / Marcel Schnelle [EN]](https://www.youtube.com/watch?v=ApPlFsbBznw)
 
